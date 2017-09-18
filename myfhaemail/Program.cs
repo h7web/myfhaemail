@@ -125,13 +125,13 @@ namespace myfhaemail
             {
              
                 //use this line for production
-                //emllist.Add(reader.GetString(0) + " " + reader.GetString(1) + " <" + reader.GetString(2) + ">");
+                emllist.Add(reader.GetString(0) + " " + reader.GetString(1) + " <" + reader.GetString(2) + ">");
 
                 //use this line for sendgrid testing
                 //emllist.Add(reader.GetString(0) + " " + reader.GetString(1) + " <" + reader.GetString(0) + "@sink.sendgrid.net>");
 
                 //use this line for daily testing
-                emllist.Add("Mike <mikesweb@illinois.edu>");
+                //emllist.Add("Mike <mikesweb@illinois.edu>");
 
                 namlist.Add(reader.GetString(0));
 
