@@ -191,7 +191,7 @@ namespace myfhaemail
     }
 }
 
-/*
+/* no longer needed here
  * public static string StripHTML(string HTMLText, bool decode = true)
         {
             Regex reg = new Regex("<[^>]+>", RegexOptions.IgnoreCase);
